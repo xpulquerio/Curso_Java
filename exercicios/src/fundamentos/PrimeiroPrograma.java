@@ -1,5 +1,7 @@
 package fundamentos;
 
+import java.util.Locale;
+
 public class PrimeiroPrograma {
 
 	public static void main(String[] args) {
@@ -13,7 +15,9 @@ public class PrimeiroPrograma {
 				"Ctrl + Alt + down/up para duplicar linha no java", 
 				"Alt + down/up para mover a linha no java",
 				"Ctrl + Shift + O organiza tudo incluindo ou removendo imports necessarios",
-				"Ctrl + Espaço completa tudo!"};
+				"Ctrl + Espaço completa tudo!",
+				"import java.util.Locale e Locale.setDefault(new Locale(\"pt\", \"BR\"));\r\n",
+				""};
 
 		while (x < comentario.length) {
 			System.out.println(comentario[x]);
