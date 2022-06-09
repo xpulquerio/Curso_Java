@@ -1,6 +1,6 @@
 package fundamentos;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 import java.util.Locale;
 import javax.swing.JOptionPane;
 
@@ -8,7 +8,7 @@ public class DesafioConversao {
 public static void main(String[] args) {
 	Locale.setDefault(new Locale("pt", "BR"));
 
-	Scanner entrada = new Scanner(System.in);
+	//Scanner entrada = new Scanner(System.in);
 	
 	String x1 = JOptionPane.showInputDialog("Digite o primeiro salário:");
 	String x2 = JOptionPane.showInputDialog("Digite o segundo salário:");

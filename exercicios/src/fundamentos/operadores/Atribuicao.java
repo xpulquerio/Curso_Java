@@ -11,5 +11,6 @@ public class Atribuicao {
 		c *= b; // c = c * b;
 		c /= a; // c = c / a;
 		c %= 2; // c = c % 2;
+		System.out.println(c);
 	}
 }
